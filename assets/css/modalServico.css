@@ -1,0 +1,1304 @@
+.area-modal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: 4s;
+    z-index: 2;
+    
+}
+.modal--conteudo{
+    width: 93%;   
+    height: 93vh;
+    display: flex;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.712);
+    transition: 1s;
+}
+.modal--conteudo--bg{
+    width: 100%;
+    display: flex;
+    height: 93vh;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.modal-conteudo--titulo{
+    width: 90px;
+    height: 400px;
+    margin-left: -17px;
+    margin-top: -14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #12ce70;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+  
+}
+.modal-conteudo--titulo  div{
+    line-height:35px;
+      font-size: 30px;
+      text-align: center;
+      font-weight: 900;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+}
+.modal-conteudo--mineDescri{
+    width: 94%;
+    height: 93vh;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 100px;
+  
+}
+
+
+
+.conteudo-mineDescri-titulo{
+    
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.conteudo-mineDescri-titulo h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+   padding-left: 30px;
+    line-height:60px;
+
+    
+}
+
+
+
+.conteudo-mineDescri-video{
+   
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video--bloco{
+    width: 320px;
+    height: 300px;
+    
+    position: absolute;
+}
+.video-bloco--video {
+    width: 320px;
+    height: 200px;
+}
+.video-bloco--video video{
+    width: 320px;
+    height: 200px;
+}
+.video--bloco h2{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.conteudo-mineDescri-sobdescri{
+    
+    grid-row-start: 2 ;
+    grid-row-end: 4;
+}
+.conteudo-mineDescri-sobdescri p{
+    padding: 20px;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.conteudo-mineDescri-tec{
+    
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    align-items: center;
+}
+.tec-blocos1,.tec-blocos2, .tec-blocos3,
+.tec-blocos4,.tec-blocos5,.tec-blocos6,
+.tec-blocos7,.tec-blocos8,.tec-blocos9,
+.tec-blocos10,.tec-blocos11 {
+    width: 70px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin: 0px 7px;
+}
+.tec-blocos1 img,.tec-blocos2 img,.tec-blocos3 img,.tec-blocos4 img,
+.tec-blocos5 img,.tec-blocos6 img,.tec-blocos7 img,.tec-blocos8 img,
+.tec-blocos9 img,.tec-blocos10 img,.tec-blocos11 img{
+    width: 35px;
+    
+}
+
+
+.fechar{
+    position: absolute;
+    font-size: 32px;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*area protfolio*/
+
+.area-modal--pro{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: 4s;
+    z-index: 2;
+    overflow: hidden;
+    
+}
+.modal--conteudo--pro{
+    width: 93%;   
+    height: 93vh;
+    display: flex;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.712);
+    transition: 1s;
+}
+.modal--conteudo--bg{
+    width: 100%;
+    display: flex;
+    height: 93vh;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.modal-conteudo--titulo--pro{
+    width: 90px;
+    height: 400px;
+    margin-left: -17px;
+    margin-top: -14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #126aa5;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+  
+}
+.modal-conteudo--titulo--pro  div{
+    line-height:35px;
+      font-size: 30px;
+      text-align: center;
+      font-weight: 900;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+}
+.modal-conteudo--mineDescri--pro{
+    width: 94%;
+    height: 93vh;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 100px;
+  
+}
+
+
+
+.conteudo-mineDescri-titulo--pro{
+    
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.conteudo-mineDescri-titulo--pro h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+   padding-left: 30px;
+    line-height:60px;
+
+    
+}
+
+
+
+.conteudo-mineDescri-video--pro{
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video--bloco--pro{
+    width: 320px;
+    height: 400px;
+    background-color: azure;
+    position: absolute;
+}
+.video-bloco--video--pro {
+    width: 320px;
+    height: 400px;
+    background-image: url('../images/imgSite/s4.png');
+    background-size: cover;
+}
+.bloco-video-pro--botao{
+    width: 320px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video--bloco--pro button{
+    border: 0px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 5px;
+    color:#fff;
+    cursor: pointer;
+    background-color: #2aa5a5;
+    transition: 0.2s;
+}
+.video--bloco--pro button:hover{
+    background-color: #0f8080;
+    color:#fff;
+}
+.video--bloco h2{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.conteudo-mineDescri-sobdescri--pro{
+    
+    grid-row-start: 2 ;
+    grid-row-end: 4;
+}
+.conteudo-mineDescri-sobdescri--pro a{
+    color: rgb(106, 199, 241);
+    padding-left: 25px;
+    font-size: 17px;
+}
+.conteudo-mineDescri-sobdescri--pro a:hover{
+    color: rgb(39, 129, 170);
+}
+
+.conteudo-mineDescri-sobdescri--pro p{
+    padding:  0px 20px;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.conteudo-mineDescri-tec--pro{
+    
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    align-items: center;
+}
+.tec-blocos--pro{
+    width: 90px;
+    height: 70px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin: 0px 7px;
+}
+.tec-blocos--pro img{
+    width: 55px;
+    
+}
+
+
+.fechar--pro{
+    position: absolute;
+    font-size: 32px;
+    top: 20px;
+    right: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.icon-scroll{
+    grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 4;
+grid-row-end: 5;
+display: flex;
+align-items: center;
+    width: 900px;
+}
+
+
+@media (min-width:973px) and (max-width:1140px){
+    /*modal servoço*/
+    .conteudo-mineDescri-sobdescri{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (min-width:929px) and (max-width:973px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 130px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}
+
+
+@media (min-width:867px) and (max-width:929px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 64px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 130px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+@media (min-width:800px) and (max-width:867px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 58px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 130px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+@media (min-width:720px) and (max-width:800px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 52px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 130px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+@media (min-width:650px) and (max-width:720px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 46px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 130px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+@media (min-width:590px) and (max-width:650px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 41px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 130px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+    
+}
+
+
+
+@media (min-width:530px) and (max-width:590px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 37px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 160px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+    
+}
+
+
+
+@media (min-width:480px) and (max-width:530px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+        width:100%;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 160px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+    
+}
+
+
+
+@media (min-width:426px) and (max-width:480px){
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+        width:100%;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 160px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+    
+}
+
+
+
+@media (min-width:376px) and (max-width:426px){
+    .area-modal{
+        height: 123vh;
+
+    }
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 123vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+        width:100%;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 160px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+    
+}
+
+
+
+@media (min-width:322px) and (max-width:376px){
+    .area-modal{
+        height: 123vh;
+
+    }
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 123vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+        width:100%;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 37px;
+        line-height: 38px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 160px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+    
+}
+
+
+
+@media (min-width:0px) and (max-width:322px){
+    .area-modal{
+        height: 123vh;
+
+    }
+    .modal--conteudo{
+        display: block;
+        width: 100%;
+        height: 123vh;
+    }
+    .modal-conteudo--titulo{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-titulo{
+        height: 145px;
+        width:100%;
+    }
+    .conteudo-mineDescri-titulo h1{
+        z-index: 1;
+        font-size: 33px;
+        line-height: 33px;
+        padding-left: 14px;
+    }
+    .conteudo-mineDescri-video{
+        height: 211px;
+        width: 100%;
+        position: relative;
+    }
+    .conteudo-mineDescri-video svg{
+        width: 75%;
+        height: 449px;
+    }
+    .video--bloco{
+        height: 204px;
+        width: 307px;
+    }
+    .video-bloco--video{
+        width: 307px;
+    }
+    .video-bloco--video video{
+        width: 305px;
+    }
+
+    .conteudo-mineDescri-sobdescri{
+        margin-top: 48px;
+    }
+    .conteudo-mineDescri-tec{
+        height: 220px;
+        display: block;
+    }
+    .icon-scroll{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .tec-blocos1, .tec-blocos2, .tec-blocos3, .tec-blocos4, .tec-blocos5, .tec-blocos6, .tec-blocos7, .tec-blocos8, .tec-blocos9, .tec-blocos10, .tec-blocos11{
+        margin: 3px 7px;
+    }
+
+
+    .fechar{
+        right:22px
+    }
+    
+}
+
+/*====== responsivel portfolio ====*/
+
+@media (min-width:973px) and (max-width:1140px){
+    .conteudo-mineDescri-titulo--pro h1{
+        font-size: 48px;
+        line-height: 51px;
+    }
+
+    .conteudo-mineDescri-sobdescri--pro{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    }
+
+    .conteudo-mineDescri-sobdescri--pro p{
+        font-size: 19px;
+    }
+}
+
+@media (min-width:475px) and (max-width:973px){
+    .conteudo-mineDescri-titulo--pro h1{
+        font-size: 48px;
+        line-height: 51px;
+    }
+
+    .conteudo-mineDescri-sobdescri--pro{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        height: auto;
+    }
+
+    .conteudo-mineDescri-sobdescri--pro p{
+        font-size: 19px;
+    }
+
+    .modal--conteudo--pro{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo--pro{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri--pro{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-video--pro svg{
+        width: 75%;
+        height: 449px;
+    }
+
+    .conteudo-mineDescri-titulo--pro{
+        height: 128px;
+        justify-content: center;
+    }
+
+    .conteudo-mineDescri-video--pro{
+        height: 502px;
+        width: 100%;
+
+        position: relative;
+
+        align-items: end;
+
+    }
+
+    .conteudo-mineDescri-tec--pro{
+        height: 113px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (min-width:365px) and (max-width:475px){
+    .conteudo-mineDescri-titulo--pro h1{
+        font-size: 36px;
+        line-height: 51px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri--pro{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        height: auto;
+    }
+
+    .conteudo-mineDescri-sobdescri--pro p{
+        font-size: 19px;
+    }
+
+    .modal--conteudo--pro{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo--pro{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri--pro{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-video--pro svg{
+        width: 75%;
+        height: 449px;
+    }
+
+    .conteudo-mineDescri-titulo--pro{
+        height: 128px;
+        justify-content: center;
+    }
+
+    .conteudo-mineDescri-video--pro{
+        height: 502px;
+        width: 100%;
+
+        position: relative;
+
+        align-items: end;
+
+    }
+
+    .conteudo-mineDescri-tec--pro{
+        height: 113px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width:365px){
+    .conteudo-mineDescri-titulo--pro h1{
+        font-size: 29px;
+        line-height: 39px;
+
+    }
+
+    .conteudo-mineDescri-sobdescri--pro{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        height: auto;
+    }
+
+    .conteudo-mineDescri-sobdescri--pro p{
+        font-size: 19px;
+    }
+
+    .modal--conteudo--pro{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .modal-conteudo--titulo--pro{
+        width: 270px;
+        height: 85px;
+        flex-direction: initial;
+    }
+    .modal-conteudo--mineDescri--pro{
+        display: block;
+        overflow: scroll;
+        width: 100%;
+    }
+    .conteudo-mineDescri-video--pro svg{
+        width: 75%;
+        height: 449px;
+    }
+
+    .conteudo-mineDescri-titulo--pro{
+        height: 128px;
+        justify-content: center;
+    }
+
+    .conteudo-mineDescri-video--pro{
+        height: 502px;
+        width: 100%;
+
+        position: relative;
+
+        align-items: end;
+
+    }
+
+    .conteudo-mineDescri-tec--pro{
+        height: 113px;
+        margin-bottom: 20px;
+    }
+
+    .video-bloco--video--pro,
+    .video--bloco--pro{
+        width: 300px;
+    }
+    .fechar--pro{
+        right: 20px;
+    }
+}
